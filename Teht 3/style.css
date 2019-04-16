@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+body{
+  background-image:url( "Green.jpg");
+  width:100vh;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.key{
+  transition: all .19s ease;
+}
+.keys{
+  display:flex;
+  text-align:center;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:30%;
+}
+kbd{
+margin:20px;
+transition: all .19s ease;
+background-color:rgba(10,10,10,0.2);
+  padding-left:40px;
+  padding-right:40px;
+  font-family: 'Roboto', sans-serif;
+  font-size:8em;
+  color:rgb(15, 219, 233);
+  border:2px solid rgb(0, 0, 0);
+  margin-bottom:20px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+}
+.soittaa{
+  display: inline-block;
+  box-shadow:10px 10px 30px 15px black;
+  background-color:rgb(253, 29, 253);
+  opacity:0.4;
+  color:rgb(205, 11, 223);
+  transform:rotate(1080deg)scale(2,2) ;
+  transition-duration: 0.3s;
+}
+span{
+  font-size:30px;
+  margin-top:30px;
+  letter-spacing: 5px;
+  color:rgb(255, 218, 8);
+  font-family: 'Roboto', sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pääsivu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo"><h2 id="logo">Team: MetsäSusi</h2></div>
+    <nav id="main-menu">
+      <ul>
+        <li><a href="index.html" class="active">Pääsivu</a></li>
+        <li><a href="team.html">Mahtavat Ihmiset</a></li>
+        <li><a href="project.html">Projektit</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 id="otsikko">Opetellaan luomaan sisältöä JavaScriptillä</h1>
+	<p>Sprinttejä valmiina <span id='progress'>0</span>
+    <hr>
+    <div>
+      <h2>Sprintti 1:nimi</h2>
+      <h3 class='status'>Status: planned</h3>
+      <p>linkit ohjelmiin</p>
+    </div>
+    <hr>
+    <div>
+      <h2>Sprintti 2:nimi</h2>
+      <h3 class='status'>Status: planned</h3>
+      <p>linkit ohjelmiin</p>
+    </div>
+    <hr>
+    <div>
+      <h2>Sprintti 3:nimi</h2>
+      <h3 class='status'>Status: planned</h3>
+      <p>linkit ohjelmiin</p>
+    </div>
+    <hr>
+  </main>
+  <footer><div id="date"></div></footer>
+</body>
+<script>
+const date = new Date();
+const elem = document.getElementById('date');
+elem.textContent = date.toLocaleDateString('fi');
+</script>
+</html>

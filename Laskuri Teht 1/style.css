@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Raleway:200');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+* {
+  box-sizing: border-box;
+}
+#logo {
+font-family: 'Rock Salt', cursive;
+font-size: 2em;
+margin-left: 13rem;
+margin-top: 3px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #010101;
+}
+
+body {
+  font-size: 14px;
+}
+#otsikko{
+ margin-bottom:2em;
+}
+header {
+  background-color: #010101;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:2em;
+}
+
+#main-menu {
+  font-size:20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1;
+  margin-top:2em;
+  float: none;
+  width: 20em;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#main-menu ul {
+  margin: 0;
+  display: block;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+
+#main-menu ul li {
+  text-align: center;
+  display:inline-block;
+  margin-right: 15px;
+  line-height: 50px;
+}
+
+#main-menu ul li a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+#main-menu ul li a:hover {
+  border-bottom:2px solid rgb(55, 212, 7);
+  min-width: 100%;
+}
+#main-menu a.active {
+  border-bottom:2px solid rgb(55, 212, 7);
+ min-width: 100%;
+}
+main {
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+p
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 1;
+  color: #fff;
+  text-align: center;
+}
+h1
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
+}
+h2
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
+}
+li
+{
+  color:#fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  list-style-type: circle;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin:10px;
+
+}
+.person{
+  margin:3em;
+}
+.pic{
+  width:100%;
+  max-width:600px;
+  height:auto;
+}
+#date{
+  text-align: center;
+  color:pink;
+}
+.status{
+  color:pink;
+}

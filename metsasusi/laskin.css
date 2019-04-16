@@ -1,0 +1,94 @@
+ @import url('https://fonts.googleapis.com/css?family=Germania+One');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    main {
+      text-align: center;
+    }
+    
+    #zero{
+      margin-top:0.8em;
+      font-family: 'Germania One', cursive; 
+      background-color:rgba(172, 255, 51, .2);
+      border: 2px solid #ACFF33;
+      padding:10px;
+      font-size:200px;
+    }
+    #zero:active {
+      transform: scale(0.9,0.8);
+      transition-duration: 0.1s;
+      opacity:0.8;
+
+}
+    #body {
+      background-image:url("https://farm4.staticflickr.com/3894/15197837445_047c325321_o.jpg");
+      background-size:cover;
+    }
+    
+    #laskuri {
+      width: 300px;
+      height: 300px;
+      font-family: 'Germania One', cursive;
+      background-color: #ACFF33;
+      color: white;
+      margin: 50px auto;
+      font-size: 240px;
+      padding: -20px 0px;
+      border-radius: 45%;
+      cursor: pointer;
+}
+    #laskuri:active {
+      transform: scale(1.1,1.1);
+      transition-duration: 2s;
+      opacity:0.1;
+
+}
+#laskuri.font:active {
+      transform: scale(6,6);
+      transition-duration: 2s;
+
+}
+#main-menu {
+  font-size:20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1;
+  margin-top:2em;
+  float: none;
+  width: 20em;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#main-menu ul {
+  margin: 0;
+  display: block;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+
+#main-menu ul li {
+  text-align: center;
+  display:inline-block;
+  margin-right: 15px;
+  line-height: 50px;
+}
+
+#main-menu ul li a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+#main-menu ul li a:hover {
+  border-bottom:2px solid rgb(55, 212, 7);
+  min-width: 100%;
+}
+#main-menu a.active {
+  border-bottom:2px solid rgb(55, 212, 7);
+ min-width: 100%;
+}

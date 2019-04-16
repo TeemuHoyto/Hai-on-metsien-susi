@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Reaktiopeli</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+            <div><button class="startButton" type="button" onclick="star()">Start GAME</button></div>    
+        <div id="tulos-container"><span id="time"><output>00:00:00</output></span> Tulos:<span id="tulos">0</span></div>
+        
+        <div id="nappula-container">
+            <div class="nappula" data-key="65" id="1">A</div>
+            <div class="nappula" data-key="83" id="2">S</div>
+            <div class="nappula" data-key="68" id="3">D</div>
+            <div class="nappula" data-key="70" id="4">F</div>
+        </div>
+
+        <div id="overlay">
+          <div id="gameover">
+          You lost
+        <span  id="loppuSumma"></span><br>
+        <button id="reloader" type="button" value="reloader" onClick="document.location.reload(true)">Reloader</button>
+          </div>
+        </div>
+        
+    </main>
+    <script src="reaktio.js"></script>
+</body>
+
+</html>
